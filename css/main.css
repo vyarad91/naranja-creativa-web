@@ -236,14 +236,18 @@ a.btn:hover {
   text-align: center;
   background: #FF9D00;
   padding-bottom: 90px;
+
 }
 
 .center-block h4 {
-  padding: 48px 180px 12px 180px;
+  margin: 48px 180px 12px 180px;
   text-align: center;
   font-size: 36px;
   line-height: 1.5em;
   color: #FFFFFF;
+  background: #1E1E1E;
+  display: inline-flex;
+  padding: 6px 12px;
 }
 
 .center-block p {
@@ -310,6 +314,10 @@ form button {
   margin: 0;
 }
 
+
+.b2 img.block-img {
+  margin-top: 100px !important;
+}
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -487,6 +495,10 @@ form button {
 
   form {
     max-width: 80%;
+  }
+
+  .b2 img.block-img {
+    margin-top: 0 !important;
   }
 
 }
