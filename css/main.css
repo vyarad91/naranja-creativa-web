@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", "Helvetica", sans-serif;
 }
 
 *,
@@ -16,11 +15,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', "Helvetica", sans-serif ;
 }
 
-p, a, ul, li {
+p, a, ul, li, span, input, textarea, label {
   font-weight: 300;
+  font-family: "Montserrat", "Helvetica", sans-serif;
 }
 
 .container {
@@ -107,12 +108,12 @@ img.block-graph {
 }
 
 .block .col-6 h2 {
-  font-size: 28px;
+  font-size: 36px;
   padding: 120px 36px 12px 36px;
 }
 
 .block .col-6 h1 {
-  font-size: 54px;
+  font-size: 60px;
   padding: 0px 36px 12px 36px;
   line-height: 1.8em;
 }
@@ -177,7 +178,7 @@ h3 mark {
 span.kicker {
   color: #FF9D00;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -260,6 +261,7 @@ form {
   margin: 24px auto 24px auto;
   padding: 24px;
   box-shadow: 0 24px 60px rgba(0,0,0,0.05);
+  font-family: "Montserrat", "Helvetica", sans-serif;
 }
 
 form label, form input, form textarea, form button {
@@ -271,6 +273,7 @@ form label {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 
 form label span {
@@ -344,7 +347,7 @@ form button {
   }
 
   .block .col-6 h4 {
-    font-size: 28px;
+    font-size: 36px;
     padding: 12px 24px;
   }
 
@@ -354,7 +357,7 @@ form button {
   }
 
   .light-block .block .col-6 h3, .block .col-6 h3 {
-    font-size: 28px;
+    font-size: 36px;
     padding: 12px 36px 24px 36px;
   }
 
@@ -385,7 +388,7 @@ form button {
 
   .center-block h4 {
     padding: 12px 24px;
-    font-size: 28px;
+    font-size: 36px;
   }
 }
 
@@ -448,7 +451,7 @@ form button {
   }
 
   .light-block .block .col-6 h3, .block .col-6 h3 {
-    font-size: 28px;
+    font-size: 36px;
     padding: 12px 36px 24px 36px;
   }
 
