@@ -432,8 +432,30 @@ form button {
     margin: 24px auto;
   }
 
-  section.menu ul {
-    display: none !important;
+  section.menu {
+    margin: 0;
+    padding: 0;
+  }
+
+  section.menu .logo {
+    margin: 12px 24px;
+  }
+
+  section.menu ul.nav {
+    background: #FCB032;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  section.menu ul.nav li {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  section.menu ul.nav li a {
+    width: auto;
+    padding: 12px;
+
   }
 
   .block .col-6 h1 {
@@ -503,6 +525,10 @@ form button {
 
   .b2 img.block-img {
     margin-top: 0 !important;
+  }
+
+  .center-block h4 {
+    margin: 48px auto 12px auto;
   }
 
 }
